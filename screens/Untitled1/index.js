@@ -1,9 +1,10 @@
+import { Text } from "react-native";
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
 const Untitled1 = () => {
   return <View style={_styles.HLGQLIvJ}>
-      <View style={_styles.akNnkhyz}></View></View>;
+      <View style={_styles.akNnkhyz}></View><Text style={_styles.ESDxVgGX}>Lorem ipsum…</Text></View>;
 };
 
 export default Untitled1;
@@ -28,5 +29,12 @@ const _styles = StyleSheet.create({
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
     color: "#777777"
+  },
+  ESDxVgGX: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
   }
 });
