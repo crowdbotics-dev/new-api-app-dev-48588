@@ -1,10 +1,9 @@
-import { Text } from "react-native";
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
 const Untitled1 = () => {
   return <View style={_styles.HLGQLIvJ}>
-      <View style={_styles.akNnkhyz}></View><Text style={_styles.ESDxVgGX}>Lorem ipsum…</Text></View>;
+      </View>;
 };
 
 export default Untitled1;
