@@ -3,7 +3,7 @@ import { View, StyleSheet } from "react-native";
 
 const Untitled2 = () => {
   return <View style={_styles.HHuwcvLJ}>
-      </View>;
+      <View style={_styles.ZkTGCUkm}></View></View>;
 };
 
 export default Untitled2;
@@ -32,5 +32,12 @@ const _styles = StyleSheet.create({
   wbpTCmTT: {
     width: 107,
     height: 62
+  },
+  ZkTGCUkm: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
