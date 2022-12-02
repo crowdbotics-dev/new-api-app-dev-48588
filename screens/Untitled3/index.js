@@ -1,9 +1,10 @@
+import { Text } from "react-native";
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
 const Untitled3 = () => {
   return <View style={_styles.Hmqwysvh}>
-      </View>;
+      <Text style={_styles.oyjqowqt}>Lorem ipsum…</Text></View>;
 };
 
 export default Untitled3;
@@ -18,5 +19,12 @@ const _styles = StyleSheet.create({
   fBCgIdVB: {
     width: 107,
     height: 62
+  },
+  oyjqowqt: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
   }
 });
